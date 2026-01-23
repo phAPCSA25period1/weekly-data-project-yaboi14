@@ -65,10 +65,10 @@ public class App {
         //
         //         Use clear labels and formatted output if needed
         // -------------------------------------------------------------
-        System.out.printf("Total steps for the week: " + weeklyData.getTotal());
-        System.out.printf("Average daily steps: " +  weeklyData.getAverage());
-        System.out.printf("Minimum daily steps: " + weeklyData.getMin());
-        System.out.printf("Maximum daily steps: " + weeklyData.getMax());
+        System.out.println("Total steps for the week: " + weeklyData.getTotal());
+        System.out.println("Average daily steps: " +  weeklyData.getAverage());
+        System.out.println("Minimum daily steps: " + weeklyData.getMin());
+        System.out.println("Maximum daily steps: " + weeklyData.getMax());
         System.out.println();
         // -------------------------------------------------------------
         // TODO 7: Display the full week of data
